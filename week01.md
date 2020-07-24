@@ -22,7 +22,6 @@
 ### Takeaways
 - <code>**dict.get(key, default = None)**</code>
 
-
   **key** = key to be searched in the dictionary\
   **default** = value to be returned in case key does not exist
   
@@ -34,3 +33,14 @@
   >>> dict.get(key2, 0)
   0
   ```
+  
+- <code>**hash(object)**</code>
+
+  Return the hash value of the object\
+  Hash values are integers
+ 
+  ```
+  >>> hash('example string')
+  7369253315943211870
+  ```
+
