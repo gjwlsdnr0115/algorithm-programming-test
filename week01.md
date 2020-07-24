@@ -11,9 +11,13 @@
 
 [Solutions](./week01)
 
+##
+
 ### Algorithms
 - [Sort](./sort)
 - Heap
+
+##
 
 ### Takeaways
 - <code>**dict.get(key, default = None)**</code>
