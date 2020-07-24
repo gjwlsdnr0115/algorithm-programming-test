@@ -10,3 +10,4 @@ Prepare for programming tests and learn major algorithms.
 - Conduct a programming test at the end of the curriculum
 
 ### :calendar: Schedule
+- [Week 1][./week01.md]
