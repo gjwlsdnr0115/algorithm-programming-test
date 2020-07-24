@@ -36,11 +36,25 @@
   
 - <code>**hash(object)**</code>
 
-  Return the hash value of the object\
-  Hash values are integers
+  Return the hash value of the object.\
+  Hash values are integers.
  
   ```
   >>> hash('example string')
   7369253315943211870
   ```
+  
+- <code>**max(iterable, *[, key, default])**</code>\
+  <code>**max(arg1, arg2, *args[, key])**</code>
+  
+  Return the largest item in an iterable or the largest of two or more arguments.
+  
+  ```
+  >>> nums = [3, 4, 5, 6]
+  >>> max(nums)
+  6
+  ```
+  
+- **Time complexity of list slicing is O(n)**
 
+  **ex)** `for item in list_[int:]` - **not recommended**
