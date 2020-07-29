@@ -20,41 +20,45 @@
 ##
 
 ### Takeaways
-- <code>**dict.get(key, default = None)**</code>
+- <code>**list.sort(self, key=None, reverse=False)**</code>
 
-  **key** = key to be searched in the dictionary\
-  **default** = value to be returned in case key does not exist
+  **key** = key to be compared\
+  **reverse** = reverse order of sort to max-min\
+  **return** = None, mutates the list
+  
   
   ```
-  >>> dict = {}
-  >>> dict['key1'] = 1
-  >>> dict.get(key1, 0)
-  1
-  >>> dict.get(key2, 0)
-  0
+  >>> a = [5, 2, 3, 1, 4]
+  >>> a.sort()
+  >>> a
+  [1, 2, 3, 4, 5]
   ```
   
-- <code>**hash(object)**</code>
+- <code>**sorted(iterable, *, key=None, reverse=False)**</code>
 
-  Return the hash value of the object.\
-  Hash values are integers.
+  Return a new sorted list from the items in iterable
+  
+  **key** = key to be compared\
+  **reverse** = reverse order of sort to max-min\
+  **return** = sorted list
  
   ```
-  >>> hash('example string')
-  7369253315943211870
+  >>> sorted([5, 2, 3, 1, 4])
+  [1, 2, 3, 4, 5]
+  >>> sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})
+  [1, 2, 3, 4, 5]
   ```
   
-- <code>**max(iterable, *[, key, default])**</code>\
-  <code>**max(arg1, arg2, *args[, key])**</code>
+- <code>**zip(*iterable)**</code>
   
-  Return the largest item in an iterable or the largest of two or more arguments.
+  Creates an iterator that will aggregate elements from two or more iterables
+  
   
   ```
-  >>> nums = [3, 4, 5, 6]
-  >>> max(nums)
-  6
+  >>> list(zip([1, 2, 3], [4, 5, 6]))
+  [(1, 4), (2, 5), (3, 6)]
+  >>> list(zip([1, 2, 3], [4, 5, 6], [7, 8, 9]))
+  [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+  >>> list(zip("abc", "def"))
+  [('a', 'd'), ('b', 'e'), ('c', 'f')]
   ```
-  
-- **Time complexity of list slicing is O(n)**
-
-  **ex)** `for item in list_[int:]` - **not recommended**
