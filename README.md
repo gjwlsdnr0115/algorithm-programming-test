@@ -17,3 +17,4 @@ Prepare for programming tests and learn major algorithms.
 
 ### :calendar: Schedule
 - [Week 1](./week01.md): 2020-07-16 ~ 2020-07-22
+- [Week 2](./week02.md): 2020-07-23 ~ 2020-07-29
