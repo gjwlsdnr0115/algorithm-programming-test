@@ -1,21 +1,21 @@
-# Week 1
-`#problems` `#Hash` `#Stack` `#Queue`\
-`#algorithms` `#Heap` `#Sort`
+# Week 2
+`#problems` `#Heap` `#Sort`\
+`#algorithms` `#Brute-Force` `#Greedy`
 
 ##
 
 ### Problems
-- [Hash](https://programmers.co.kr/learn/courses/30/parts/12077])
-- [Stack / Queue](https://programmers.co.kr/learn/courses/30/parts/12081)
+- [Heap](https://programmers.co.kr/learn/courses/30/parts/12117)
+- [Sort](https://programmers.co.kr/learn/courses/30/parts/12198)
 
 
-[Solutions](./week01)
+[Solutions](./week02)
 
 ##
 
 ### Algorithms
-- [Sort](./sort)
-- Heap
+- Brute-Force
+- Greedy
 
 ##
 
